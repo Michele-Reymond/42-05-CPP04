@@ -1,8 +1,12 @@
 SRCS	= 	main.cpp \
-			ClapTrap.cpp
+			Animal.cpp \
+			Cat.cpp \
+			Dog.cpp \
+			WrongAnimal.cpp \
+			WrongCat.cpp
 CFLAGS	= -Wall -Werror -Wextra -std=c++98
 CC		= c++
-NAME	= claptrap
+NAME	= animalerie
 OBJS	= ${SRCS:.cpp=.o}
 RM		= rm -f
 
